@@ -1,6 +1,5 @@
 import Image from "next/image";
 import styles from "./hero.module.css";
-import Header from "components/header";
 import fondo01 from "resources/fondo01_blue.png";
 
 export default function Hero() {
@@ -13,7 +12,6 @@ export default function Hero() {
         priority
         style={{ objectFit: "cover", zIndex: -1 }}
       />
-      <Header />
       <section className={styles["welcome__section-below"]}>
         <h1 className={styles["welcome__title"]}>
           <span className={styles["welcome__title-span"]}>Bienvenido a</span>

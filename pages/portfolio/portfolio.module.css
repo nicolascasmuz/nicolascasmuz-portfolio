@@ -1,0 +1,155 @@
+.portfolio-top {
+  font-family: "Montserrat", sans-serif;
+  height: 80vh;
+}
+
+@media (min-width: 769px) {
+  .portfolio-top {
+    height: 63vh;
+  }
+}
+
+.portfolio-top__below {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: calc(100vh - 200px);
+  margin-top: 12px;
+}
+
+@media (min-width: 769px) {
+  .portfolio-top__below {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 35vh;
+    margin: 135px 0px 0px 30px;
+  }
+}
+
+.portfolio-top__title {
+  font-size: 60px;
+  color: #141414;
+  background: #2ad8c465;
+}
+
+.section-dev,
+.section-av,
+.section-graph {
+  background-color: #03342b;
+}
+
+.footer {
+  background-color: #fafafa;
+}
+
+.section-dev,
+.section-av,
+.section-graph {
+  display: grid;
+  grid-template-rows: auto auto;
+  justify-content: center;
+  gap: 55px;
+  font-family: "Montserrat", sans-serif;
+  color: #fafafa;
+  padding: 70px 30px;
+}
+
+@media (min-width: 769px) {
+  .section-dev,
+  .section-av,
+  .section-graph {
+    grid-template-columns: auto auto;
+    padding: 70px 60px;
+  }
+}
+
+@media (min-width: 1089px) {
+  .section-dev,
+  .section-av,
+  .section-graph {
+    grid-template-columns: auto auto auto;
+    gap: 40px;
+  }
+}
+
+.section-portfolio__service {
+  grid-column: 1 / -1;
+  grid-row: 1;
+  font-size: 32px;
+  font-weight: 700;
+  text-align: center;
+  min-width: 315px;
+  margin: 0;
+}
+
+@media (min-width: 769px) {
+  .section-portfolio__service {
+    text-align: left;
+  }
+}
+
+.section-portfolio__subtitle {
+  grid-column: 1 / -1;
+  grid-row: 2;
+  font-size: 16px;
+  font-weight: 300;
+  margin: 0;
+}
+
+.section-portfolio__container {
+  display: grid;
+  max-width: 515px;
+  min-width: 315px;
+}
+
+.section-portfolio__img {
+  justify-self: center;
+  align-self: center;
+  height: 150px;
+  margin-bottom: 10px;
+}
+
+@media (min-width: 769px) {
+  .section-portfolio__img {
+    height: 200px;
+  }
+}
+
+.section-portfolio__video {
+  justify-self: center;
+  align-self: center;
+  width: 280px;
+  height: 157px;
+  margin-bottom: 10px;
+}
+
+@media (min-width: 769px) {
+  .section-portfolio__video {
+    width: 350px;
+    height: 197px;
+  }
+}
+
+.section-portfolio__h3 {
+  justify-self: center;
+  align-self: center;
+  font-size: 24px;
+  font-weight: 600;
+  text-align: center;
+  margin: 0;
+}
+
+.section-portfolio__p {
+  font-size: 16px;
+  font-weight: 300;
+  text-align: left;
+  margin-bottom: 25px;
+}
+
+.section-portfolio__a {
+  text-decoration: overline;
+  color: #2ad8c4;
+  font-size: 18px;
+  margin-right: 10px;
+}

@@ -1,4 +1,6 @@
 .section-intro {
+  position: relative;
+  background-image: linear-gradient(rgb(2 31 39 / 95%), rgb(2 31 39 / 95%));
   display: grid;
   justify-content: center;
   align-content: center;
@@ -6,6 +8,7 @@
   font-family: "Montserrat", sans-serif;
   height: 100vh;
   padding: 70px 30px;
+  overflow: hidden;
 }
 
 .section-intro__container {

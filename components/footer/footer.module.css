@@ -34,9 +34,22 @@
 }
 
 .footer__social-media-logo {
+  width: auto;
   height: 28px;
 }
 
 .footer__social-media-name {
   font-weight: 500;
+}
+
+.footer {
+  background-color: #021f27;
+}
+
+.footer__logo {
+  filter: invert();
+}
+
+.footer__social-media-name {
+  filter: invert();
 }

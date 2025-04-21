@@ -6,7 +6,7 @@ import menu_icon from "resources/menu-icon.png";
 export default function Header() {
   return (
     <header className={styles["header"]}>
-      <a href="./index.html" className={styles["header__logo-a"]}>
+      <a href="/main" className={styles["header__logo-a"]}>
         <Image
           src={logo_lg7}
           alt="logo-portfolio"
@@ -29,30 +29,30 @@ export default function Header() {
           height={100}
         />
       </label>
-      <ul className={styles["header__menu-lista"]}>
+      <ul className={styles["header__menu-li"]}>
         <li>
-          <a href="./index.html" className={styles["header__option"]}>
+          <a href="/index" className={styles["header__option"]}>
             Inicio
           </a>
-          <a href="./portfolio.html" className={styles["header__option"]}>
+          <a href="/portfolio" className={styles["header__option"]}>
             Portfolio
           </a>
-          <a href="./servicios.html" className={styles["header__option"]}>
+          <a href="/servicios" className={styles["header__option"]}>
             Servicios
           </a>
-          <a href="./contacto.html" className={styles["header__option"]}>
+          <a href="/contacto" className={styles["header__option"]}>
             Contacto
           </a>
         </li>
       </ul>
       <nav className={styles["header__menu-nav"]}>
-        <a href="./portfolio.html" className={styles["header__option"]}>
+        <a href="/portfolio" className={styles["header__option"]}>
           Portfolio
         </a>
-        <a href="./servicios.html" className={styles["header__option"]}>
+        <a href="/servicios" className={styles["header__option"]}>
           Servicios
         </a>
-        <a href="./contacto.html" className={styles["header__option"]}>
+        <a href="/contacto" className={styles["header__option"]}>
           Contacto
         </a>
       </nav>
