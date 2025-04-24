@@ -37,10 +37,10 @@ export default function Header() {
           <a href="/portfolio" className={styles["header__option"]}>
             Portfolio
           </a>
-          <a href="/servicios" className={styles["header__option"]}>
+          <a href="/services" className={styles["header__option"]}>
             Servicios
           </a>
-          <a href="/contacto" className={styles["header__option"]}>
+          <a href="/contact" className={styles["header__option"]}>
             Contacto
           </a>
         </li>
@@ -49,10 +49,10 @@ export default function Header() {
         <a href="/portfolio" className={styles["header__option"]}>
           Portfolio
         </a>
-        <a href="/servicios" className={styles["header__option"]}>
+        <a href="/services" className={styles["header__option"]}>
           Servicios
         </a>
-        <a href="/contacto" className={styles["header__option"]}>
+        <a href="/contact" className={styles["header__option"]}>
           Contacto
         </a>
       </nav>

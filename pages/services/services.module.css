@@ -1,15 +1,15 @@
-.portfolio-top {
+.services-top {
   font-family: "Montserrat", sans-serif;
   height: 80vh;
 }
 
 @media (min-width: 769px) {
-  .portfolio-top {
+  .services-top {
     height: 63vh;
   }
 }
 
-.portfolio-top__below {
+.services-top__below {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -18,7 +18,7 @@
 }
 
 @media (min-width: 769px) {
-  .portfolio-top__below {
+  .services-top__below {
     display: flex;
     justify-content: flex-start;
     align-items: center;
@@ -27,10 +27,20 @@
   }
 }
 
-.portfolio-top__title {
+.services-top__title {
   font-size: 60px;
   color: #141414;
-  background: #2ad8c465;
+  background: #e74c3c65;
+}
+
+@media (min-width: 769px) {
+  .services-top__title {
+    font-size: 60px;
+  }
+}
+
+.section-services {
+  background-color: #4a1623;
 }
 
 .footer {

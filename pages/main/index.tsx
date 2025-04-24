@@ -3,14 +3,14 @@ import Layout from "components/layout";
 import Contact from "components/contact";
 import Hero from "components/hero";
 import Intro from "components/intro";
-import Services from "components/services";
+import ServicesComp from "components/services";
 
 const Main: NextPage = () => {
   return (
     <Layout>
       <Hero />
       <Intro />
-      <Services />
+      <ServicesComp />
       <Contact />
     </Layout>
   );
