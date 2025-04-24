@@ -49,7 +49,7 @@ const Portfolio: NextPage = () => {
   }, []);
 
   return (
-    <Layout>
+    <Layout footerTheme={true}>
       <section className={styles["portfolio-top"]}>
         <Image
           src={fondo03}

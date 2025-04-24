@@ -8,7 +8,7 @@ import fondo02 from "resources/fondo02_red.png";
 
 const Services: NextPage = () => {
   return (
-    <Layout>
+    <Layout footerTheme={true}>
       <section className={styles["services-top"]}>
         <Image
           src={fondo02}

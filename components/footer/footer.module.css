@@ -42,10 +42,6 @@
   font-weight: 500;
 }
 
-.footer {
-  background-color: #021f27;
-}
-
 .footer__logo {
   filter: invert();
 }

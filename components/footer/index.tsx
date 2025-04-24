@@ -6,15 +6,19 @@ import logo_instagram from "resources/instagram.png";
 import logo_github from "resources/github.png";
 import logo_youtube from "resources/youtube.png";
 
-export default function Footer() {
+export default function Footer(props) {
   return (
-    <footer className={styles["footer"]}>
+    <footer
+      className={styles["footer"]}
+      style={{ backgroundColor: props.footerTheme ? "#fafafa" : "#021f27" }}
+    >
       <Image
         src={logo_lg7}
         alt="logo-lg7"
         width={100}
         height={100}
         className={styles["footer__logo"]}
+        style={{ filter: props.footerTheme ? "none" : "invert()" }}
       />
       <div className={styles["footer__social-media-container"]}>
         <a
@@ -31,6 +35,7 @@ export default function Footer() {
           <label
             className={styles["footer__social-media-name"]}
             htmlFor="linkedin"
+            style={{ filter: props.footerTheme ? "none" : "invert()" }}
           >
             Linkedin
           </label>
@@ -49,6 +54,7 @@ export default function Footer() {
           <label
             className={styles["footer__social-media-name"]}
             htmlFor="linkedin"
+            style={{ filter: props.footerTheme ? "none" : "invert()" }}
           >
             Instagram
           </label>
@@ -64,7 +70,12 @@ export default function Footer() {
             height={100}
             className={styles["footer__social-media-logo"]}
           />
-          <label className={styles["footer__social-media-name"]}>Github</label>
+          <label
+            className={styles["footer__social-media-name"]}
+            style={{ filter: props.footerTheme ? "none" : "invert()" }}
+          >
+            Github
+          </label>
         </a>
         <a
           href="https://www.youtube.com/@LG7multimedia"
@@ -77,7 +88,12 @@ export default function Footer() {
             height={100}
             className={styles["footer__social-media-logo"]}
           />
-          <label className={styles["footer__social-media-name"]}>YouTube</label>
+          <label
+            className={styles["footer__social-media-name"]}
+            style={{ filter: props.footerTheme ? "none" : "invert()" }}
+          >
+            YouTube
+          </label>
         </a>
       </div>
     </footer>
