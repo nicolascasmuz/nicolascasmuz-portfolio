@@ -55,10 +55,9 @@ export default function AvProjects() {
               className={styles["section-portfolio__video"]}
               src={p.pic}
               title="YouTube video player"
-              frameborder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-              referrerpolicy="strict-origin-when-cross-origin"
-              allowfullscreen
+              referrerPolicy="strict-origin-when-cross-origin"
+              allowFullScreen
             ></iframe>
             <h3 className={styles["section-portfolio__h3"]}>{p.h3}</h3>
             <p className={styles["section-portfolio__p"]}>{p.p}</p>
