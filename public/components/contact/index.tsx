@@ -23,10 +23,7 @@ export default function Contact() {
       message: form.message,
     };
 
-    console.log("mail 1: ", mail);
-
     if (mail.name && mail.email && mail.message) {
-      console.log("mail 2: ", mail);
       await sendMail(mail);
       router.push("/message-sent");
     }

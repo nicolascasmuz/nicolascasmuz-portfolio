@@ -83,4 +83,10 @@
   font-weight: 700;
   height: 45px;
   margin-top: 20px;
+  cursor: pointer;
+  transition: all 0.25s ease-out;
+}
+
+.section-form__button:hover {
+  opacity: 65%;
 }
