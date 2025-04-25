@@ -1,4 +1,4 @@
-const BASE_URL = "https://nicolascasmuz-portfolio.vercel.app/api";
+const BASE_URL = "https://nicolascasmuz-portfolio-backend.vercel.app/api";
 
 export async function fetchAPI(input?: RequestInfo, options?) {
   const url = BASE_URL + input;
