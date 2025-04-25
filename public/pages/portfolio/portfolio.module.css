@@ -1,0 +1,38 @@
+.portfolio-top {
+  font-family: "Montserrat", sans-serif;
+  height: 80vh;
+}
+
+@media (min-width: 769px) {
+  .portfolio-top {
+    height: 63vh;
+  }
+}
+
+.portfolio-top__below {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: calc(100vh - 200px);
+  margin-top: 12px;
+}
+
+@media (min-width: 769px) {
+  .portfolio-top__below {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 35vh;
+    margin: 135px 0px 0px 30px;
+  }
+}
+
+.portfolio-top__title {
+  font-size: 60px;
+  color: #141414;
+  background: #2ad8c465;
+}
+
+.footer {
+  background-color: #fafafa;
+}
