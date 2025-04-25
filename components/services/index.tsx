@@ -10,8 +10,6 @@ interface service {
 export default function ServicesComp() {
   const [myServices, setMyServices] = useState([]);
 
-  console.log("myServices: ", myServices);
-
   function pullRequest() {
     return fetch(
       "https://preview.contentful.com/spaces/boc2rp8m0dgi/environments/master/entries?access_token=Y1_N0gShtcshwQbkaOPc2u0lA-7zD8351Q0NWQCRCsU&&content_type=servicesForPortfolio"
