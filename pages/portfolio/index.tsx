@@ -58,7 +58,6 @@ const Portfolio: NextPage = () => {
           priority
           style={{ objectFit: "cover", zIndex: -1 }}
         />
-        <div className={styles["header-comp"]}></div>
         <section className={styles["portfolio-top__below"]}>
           <h1 className={styles["portfolio-top__title"]}>Portfolio</h1>
         </section>
