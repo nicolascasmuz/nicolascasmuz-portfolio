@@ -1,25 +1,21 @@
-import { useState, useEffect } from "react";
-import styles from "./dev-projects.module.css";
+import styles from "./graph-projects.module.css";
 
-export default function DevProjects({ projects }) {
+export default function GraphProjects({ projects }) {
   return (
-    <section className={styles["section-dev"]}>
-      <h2 className={styles["section-portfolio__title"]}>Desarrollo Web</h2>
-      {projects.map((p, index) => {
+    <section className={styles["section-av"]}>
+      <h2 className={styles["section-portfolio__title"]}>Diseño gráfico</h2>
+      {projects.map((p) => {
         return (
-          <div className={styles["section-portfolio__container"]} key={index}>
+          <div className={styles["section-portfolio__container"]}>
             <img
               src={p.pic}
               alt="img-project"
               className={styles["section-portfolio__img"]}
-            />
+            ></img>
             <h3 className={styles["section-portfolio__h3"]}>{p.h3}</h3>
             <p className={styles["section-portfolio__p"]}>{p.p}</p>
             <div className={styles["section-portfolio__link-container"]}>
               <a href={p.a} className={styles["section-portfolio__a"]}>
-                Ver repo
-              </a>
-              <a href={p.ingresar} className={styles["section-portfolio__a"]}>
                 Ingresar
               </a>
             </div>
