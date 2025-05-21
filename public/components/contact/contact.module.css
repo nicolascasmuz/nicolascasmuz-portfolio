@@ -1,7 +1,6 @@
 .section-form {
   background-color: #fafafa;
   color: #021f27;
-  font-family: "Montserrat", sans-serif;
   display: grid;
   justify-content: center;
   align-content: center;
@@ -22,6 +21,7 @@
 .section-form__form {
   display: grid;
   gap: 20px;
+  font-family: "Montserrat Bold", sans-serif;
   min-width: 315px;
 }
 
@@ -34,6 +34,7 @@
 }
 
 .section-form__title {
+  font-family: "Montserrat Bold", sans-serif;
   text-align: center;
   font-size: 32px;
   margin: 0;
@@ -56,7 +57,6 @@
   border: solid 2px #021f27;
   background-color: #fafafa;
   border-radius: 4px;
-  font-family: "Montserrat", sans-serif;
   font-size: 25px;
   color: #021f27;
   width: 100%;
@@ -67,7 +67,7 @@
   border: solid 2px #021f27;
   background-color: #fafafa;
   border-radius: 4px;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Montserrat Bold", sans-serif;
   font-size: 18px;
   color: #021f27;
   width: 100%;
@@ -78,7 +78,7 @@
   border: none;
   background-color: #021f27;
   color: #fafafa;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Montserrat Bold", sans-serif;
   font-size: 17px;
   font-weight: 700;
   height: 45px;

@@ -5,7 +5,6 @@
   justify-content: center;
   align-content: center;
   gap: 25px;
-  font-family: "Montserrat", sans-serif;
   height: 100vh;
   padding: 70px 30px;
   overflow: hidden;
@@ -42,9 +41,9 @@
 }
 
 .section-intro__title {
+  font-family: "Montserrat Bold", sans-serif;
   color: #fafafa;
   font-size: 32px;
-  font-weight: 700;
   margin: 0;
 }
 
@@ -55,9 +54,9 @@
 }
 
 .section-intro__introduction {
+  font-family: "Montserrat Regular", sans-serif;
   color: #fafafa;
   font-size: 16px;
-  font-weight: 300;
   margin: 0;
   text-align: right;
 }
