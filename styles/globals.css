@@ -3,6 +3,23 @@
   --foreground: #171717;
 }
 
+@font-face {
+  font-family: "Montserrat Bold";
+  src: url(../fonts/MONTSERRAT_BOLD.TTF);
+}
+@font-face {
+  font-family: "Montserrat Bold Italic";
+  src: url(../fonts/MONTSERRAT_BOLDITALIC.TTF);
+}
+@font-face {
+  font-family: "Montserrat Italic";
+  src: url(../fonts/MONTSERRAT_ITALIC.TTF);
+}
+@font-face {
+  font-family: "Montserrat Regular";
+  src: url(../fonts/MONTSERRAT_REGULAR.TTF);
+}
+
 @media (prefers-color-scheme: dark) {
   :root {
     --background: #0a0a0a;

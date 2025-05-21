@@ -6,10 +6,27 @@ import Layout from "components/layout";
 import fondo03 from "resources/fondo03_green.png";
 import DevProjects from "components/dev-projects";
 import AvProjects from "components/av-projects";
+import GraphProjects from "components/graph-projects";
+
+interface devProject {
+  pic: string;
+  h3: string;
+  p: string;
+  a: string;
+  ingresar: string;
+}
+
+interface otherProject {
+  pic: string;
+  h3: string;
+  p: string;
+  a: string;
+}
 
 const Portfolio: NextPage = () => {
   const [devProject, setDevProjects] = useState([]);
   const [avProject, setAvProjects] = useState([]);
+  const [graphProject, setGraphProjects] = useState([]);
 
   function pullRequest() {
     return fetch(
@@ -19,8 +36,9 @@ const Portfolio: NextPage = () => {
         return res.json();
       })
       .then((data) => {
-        const dev: any[] = [];
-        const av: any[] = [];
+        const dev: devProject[] = [];
+        const av: otherProject[] = [];
+        const graph: otherProject[] = [];
 
         for (let i = 0; i < data["items"].length; i++) {
           const fields = data.items[i].fields;
@@ -34,13 +52,18 @@ const Portfolio: NextPage = () => {
 
           if (fields.cat === "dev") {
             dev.push(project);
-          } else if (fields.cat === "av") {
+          }
+          if (fields.cat === "av") {
             av.push(project);
+          }
+          if (fields.cat === "graph") {
+            graph.push(project);
           }
         }
 
         setDevProjects(dev);
         setAvProjects(av);
+        setGraphProjects(graph);
       });
   }
 
@@ -58,13 +81,13 @@ const Portfolio: NextPage = () => {
           priority
           style={{ objectFit: "cover", zIndex: -1 }}
         />
-        <div className={styles["header-comp"]}></div>
         <section className={styles["portfolio-top__below"]}>
           <h1 className={styles["portfolio-top__title"]}>Portfolio</h1>
         </section>
       </section>
-      <DevProjects />
-      <AvProjects />
+      <DevProjects projects={devProject} />
+      <AvProjects projects={avProject} />
+      <GraphProjects projects={graphProject} />
     </Layout>
   );
 };

@@ -4,7 +4,6 @@
   justify-content: center;
   gap: 55px;
   background-color: #03342b;
-  font-family: "Montserrat", sans-serif;
   color: #fafafa;
   padding: 70px 30px;
 }
@@ -26,6 +25,7 @@
 .section-portfolio__title {
   grid-column: 1 / -1;
   grid-row: 1;
+  font-family: "Montserrat Bold", sans-serif;
   font-size: 32px;
   font-weight: 700;
   text-align: center;
@@ -84,6 +84,7 @@
 .section-portfolio__h3 {
   justify-self: center;
   align-self: center;
+  font-family: "Montserrat Bold", sans-serif;
   font-size: 24px;
   font-weight: 600;
   text-align: center;
@@ -91,6 +92,7 @@
 }
 
 .section-portfolio__p {
+  font-family: "Montserrat Regular", sans-serif;
   font-size: 16px;
   font-weight: 300;
   text-align: left;
@@ -98,6 +100,7 @@
 }
 
 .section-portfolio__a {
+  font-family: "Montserrat Regular", sans-serif;
   text-decoration: overline;
   color: #2ad8c4;
   font-size: 18px;

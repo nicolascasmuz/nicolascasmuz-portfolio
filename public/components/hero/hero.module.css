@@ -1,11 +1,11 @@
 .welcome {
-  font-family: "Montserrat", sans-serif;
-  height: 87vh;
+  font-family: "Montserrat Bold", sans-serif;
+  height: calc(100vh - 80px);
 }
 
 @media (min-width: 769px) {
   .welcome {
-    height: 84vh;
+    height: calc(100vh - 100px);
   }
 }
 
