@@ -31,6 +31,11 @@
   display: flex;
   align-items: center;
   gap: 7px;
+  transition: all 0.25s ease-out;
+}
+
+.footer__social-media-link:hover {
+  opacity: 50%;
 }
 
 .footer__social-media-logo {
