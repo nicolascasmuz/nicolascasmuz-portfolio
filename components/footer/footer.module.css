@@ -44,4 +44,5 @@
 
 .footer__social-media-name {
   filter: invert();
+  cursor: pointer;
 }
