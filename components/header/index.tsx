@@ -1,6 +1,6 @@
 import Image from "next/image";
 import styles from "./header.module.css";
-import logo_lg7 from "resources/logo-lg7.png";
+import logo_lg7 from "resources/logo-cedar.png";
 import menu_icon from "resources/menu-icon.png";
 
 export default function Header(props) {

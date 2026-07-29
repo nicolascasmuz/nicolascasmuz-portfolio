@@ -1,6 +1,6 @@
 import styles from "./footer.module.css";
 import Image from "next/image";
-import logo_lg7 from "resources/logo-lg7.png";
+import logo_lg7 from "resources/logo-cedar.png";
 import logo_linkedin from "resources/linkedin.png";
 import logo_instagram from "resources/instagram.png";
 import logo_github from "resources/github.png";
