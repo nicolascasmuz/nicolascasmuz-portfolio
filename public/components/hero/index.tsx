@@ -14,8 +14,10 @@ export default function Hero() {
       />
       <section className={styles["welcome__section-below"]}>
         <h1 className={styles["welcome__title"]}>
-          <span className={styles["welcome__title-span"]}>Bienvenido a</span>
-          LG7 MULTIMEDIA
+          NICOLÁS CASMUZ
+          <span className={styles["welcome__title-span"]}>
+            Programador y Lic. en Realización Audiovisual
+          </span>
         </h1>
       </section>
     </main>
