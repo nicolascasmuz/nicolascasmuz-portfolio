@@ -6,6 +6,7 @@ const nextConfig: NextConfig = withSvgr({
   compiler: {
     styledComponents: true,
   },
+  turbopack: {},
 });
 
 export default nextConfig;
