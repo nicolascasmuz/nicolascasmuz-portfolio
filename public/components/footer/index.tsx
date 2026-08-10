@@ -1,10 +1,9 @@
 import styles from "./footer.module.css";
 import Image from "next/image";
 import logo_lg7 from "resources/logo-cedar.png";
-import logo_linkedin from "resources/linkedin.png";
-import logo_instagram from "resources/instagram.png";
-import logo_github from "resources/github.png";
-import logo_youtube from "resources/youtube.png";
+import logo_linkedin from "resources/linkedin-icon.png";
+import logo_instagram from "resources/instagram-icon.png";
+import logo_github from "resources/github-icon.png";
 
 export default function Footer(props) {
   return (
@@ -41,7 +40,7 @@ export default function Footer(props) {
           </label>
         </a>
         <a
-          href="https://www.instagram.com/lg7.multimedia/"
+          href="https://www.instagram.com/nicolasfcasmuz/"
           className={styles["footer__social-media-link"]}
         >
           <Image
@@ -75,24 +74,6 @@ export default function Footer(props) {
             style={{ filter: props.footerTheme ? "none" : "invert()" }}
           >
             Github
-          </label>
-        </a>
-        <a
-          href="https://www.youtube.com/@LG7multimedia"
-          className={styles["footer__social-media-link"]}
-        >
-          <Image
-            src={logo_youtube}
-            alt="logo-youtube"
-            width={100}
-            height={100}
-            className={styles["footer__social-media-logo"]}
-          />
-          <label
-            className={styles["footer__social-media-name"]}
-            style={{ filter: props.footerTheme ? "none" : "invert()" }}
-          >
-            YouTube
           </label>
         </a>
       </div>
